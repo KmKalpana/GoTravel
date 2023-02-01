@@ -9,6 +9,7 @@ import {
 import React, {useLayoutEffect} from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { HeroImage } from "../assets";
+import * as Animatable from "react-native-animatable"
 const HomeScreen = () => {
     const navigation=useNavigation();
   return (
